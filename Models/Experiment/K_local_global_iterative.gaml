@@ -65,7 +65,7 @@ grid my_cell width: width height: height
 
 species fish skills: [moving] parallel: true
 {
-	int local_density <- 0;
+	float local_density <- 0.0;
 	float adjust_factor <- pi * fish_local_density_radius^2;
 	rgb color <- #green;
 	init

@@ -105,7 +105,7 @@ species my_equation {
 
 species fish skills: [moving] parallel: true
 {
-	int local_density <- 0;
+	float local_density <- 0.0;
 	float adjust_factor <- 0.0;
 	image_file my_icon <- image_file("../includes/data/fish2.png");
 	rgb color <- #green;
