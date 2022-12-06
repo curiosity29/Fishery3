@@ -107,7 +107,7 @@ species fish skills: [moving] parallel: true
 {
 	float local_density <- 0.0;
 	float adjust_factor <- 0.0;
-	image_file my_icon <- image_file("../includes/data/fish2.png");
+	//image_file my_icon <- image_file("../includes/data/fish2.png");
 	rgb color <- #green;
 	init
 	{
@@ -139,9 +139,9 @@ species fish skills: [moving] parallel: true
 		{do wander;}
 	}
 	
-	aspect icon {
-		draw my_icon size: 1.0;
-	}
+	//aspect icon {
+	//	draw my_icon size: 1.0;
+	//}
 	
 	float area;
 	reflex reproduce
