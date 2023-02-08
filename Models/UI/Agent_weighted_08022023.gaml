@@ -26,10 +26,10 @@ global torus: true
 
 	reflex
 	{
-		ask fish { if self.dead = true {do die;}}
 		ask fish { do reproduce;}
 		ask fish { do change_weight;}
 		ask fish { do split;}
+		ask fish { if self.dead = true {do die;}}
 		ask fish { do fish_move;}
 	}
 
